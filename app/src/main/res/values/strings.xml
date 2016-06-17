@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">Android L</string>
+
+  <!--<string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>-->
+  <string name="cheese_ipsum">
+    有人说，回忆，是一种味道。无法释去，
+    更无法追寻。我把思念写在风里，灵动的文字没有了时差，
+    任眉眼打湿我的诗行，眸中是一波的微蓝轻漾。你在我老去的章 节里行走，
+    我愿终生眠在紫色的砚台中，
+    用微笑，为你收割秋天的书卷气香。
+    搁笔落字，素心微澜，试图在唐风宋雨的古韵里，寻你，
+    寻那一条与你相逢的江南古 巷。
+  </string>
+  <string name="checkin">Checkin</string>
+  <string name="menu_settings">Settings</string>
+
+</resources>
