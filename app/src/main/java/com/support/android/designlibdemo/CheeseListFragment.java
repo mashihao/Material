@@ -21,7 +21,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.TextViewCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
@@ -36,7 +35,11 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+/**
+ * TODO
+ * @author msh
+ * @time 2016/6/17 18:19
+*/
 public class CheeseListFragment extends Fragment {
 
     @Nullable
@@ -54,6 +57,7 @@ public class CheeseListFragment extends Fragment {
                 getRandomSublist(Cheeses.sCheeseStrings, 30)));
     }
 
+
     private List<String> getRandomSublist(String[] array, int amount) {
         ArrayList<String> list = new ArrayList<>(amount);
         Random random = new Random();
@@ -62,7 +66,6 @@ public class CheeseListFragment extends Fragment {
         }
         return list;
     }
-
     public static class SimpleStringRecyclerViewAdapter
             extends RecyclerView.Adapter<SimpleStringRecyclerViewAdapter.ViewHolder> {
 

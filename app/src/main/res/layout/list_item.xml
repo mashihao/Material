@@ -9,13 +9,14 @@
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
     android:gravity="center_vertical">
-
+    <!--实现圆角图片 ! cheeses的图片-->
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/avatar"
         android:layout_width="@dimen/list_item_avatar_size"
         android:layout_height="@dimen/list_item_avatar_size"
         android:layout_marginRight="16dp"/>
 
+    <!--cheeses名称-->
     <TextView
         android:id="@android:id/text1"
         android:layout_width="match_parent"

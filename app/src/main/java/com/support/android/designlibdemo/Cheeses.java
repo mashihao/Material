@@ -17,8 +17,11 @@
 package com.support.android.designlibdemo;
 
 import java.util.Random;
-
-public class Cheeses {
+/**
+ * TODO
+ * @author msh
+ * @time 2016/6/17 18:19
+*/public class Cheeses {
 
     private static final Random RANDOM = new Random();
 
