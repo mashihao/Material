@@ -58,6 +58,8 @@ public class CheeseListFragment extends Fragment {
     }
 
 
+
+    //获取到随机的标题文字
     private List<String> getRandomSublist(String[] array, int amount) {
         ArrayList<String> list = new ArrayList<>(amount);
         Random random = new Random();
@@ -66,6 +68,10 @@ public class CheeseListFragment extends Fragment {
         }
         return list;
     }
+
+
+
+    //设置Apapter 使用static
     public static class SimpleStringRecyclerViewAdapter
             extends RecyclerView.Adapter<SimpleStringRecyclerViewAdapter.ViewHolder> {
 
@@ -86,17 +92,14 @@ public class CheeseListFragment extends Fragment {
                 mImageView = (ImageView) view.findViewById(R.id.avatar);
                 mTextView = (TextView) view.findViewById(android.R.id.text1);
             }
-
             @Override
             public String toString() {
                 return super.toString() + " '" + mTextView.getText();
             }
         }
-
         public String getValueAt(int position) {
             return mValues.get(position);
         }
-
         public SimpleStringRecyclerViewAdapter(Context context, List<String> items) {
             context.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
             mBackground = mTypedValue.resourceId;
